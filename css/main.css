@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 50vw;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+main .logo {
+  margin-top: 0.5rem;
+}
+
+main h1 {
+  margin: 1rem 0 0.5rem 0;
+  color: #151f29;
+}
+
+main span {
+  font-weight: 300;
+  color: #969696;
+}
+
+main .subscribe {
+  font-size: 70%;
+  color: #151f29;
+  margin-top: 0;
+}
+
+main form div {
+  display: inline-block;
+  width: 50%;
+}
+
+main form input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 99em;
+  border: 1px solid #969696;
+}
+
+main form ::-webkit-input-placeholder {
+  padding-left: 0.5rem;
+}
+
+main form :-ms-input-placeholder {
+  padding-left: 0.5rem;
+}
+
+main form ::-ms-input-placeholder {
+  padding-left: 0.5rem;
+}
+
+main form ::placeholder {
+  padding-left: 0.5rem;
+}
+
+main form input:focus {
+  outline: none;
+}
+
+main form .error-msg {
+  color: #ff5263;
+  font-size: 50%;
+  margin: 0.2rem 0;
+  text-align: left;
+  padding-left: 1rem;
+  visibility: hidden;
+}
+
+main form button {
+  padding: 0.7rem 2.5rem;
+  border-radius: 99em;
+  border: none;
+  background-color: #4f7df3;
+  color: white;
+  vertical-align: top;
+}
+
+main form button:hover {
+  background-color: #819cdf;
+}
+
+main .dashboard-illustration {
+  width: 90%;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+main .social-icons {
+  color: #4f7df3;
+}
+
+main .icon {
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  padding: 00.3rem;
+  border: 1px solid #c2d3ff;
+}
+
+main .icon:hover {
+  color: white;
+  background-color: #4f7df3;
+}
+
+main .tnc {
+  font-size: 50%;
+  color: #969696;
+  margin-bottom: 0;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  main {
+    width: 75vw;
+    height: 100%;
+  }
+  main .logo {
+    margin: 3rem 0 2rem 0;
+  }
+  main form div {
+    width: 70%;
+  }
+}
+
+@media (max-width: 599px) {
+  main {
+    width: 80vw;
+    height: 100%;
+  }
+  main .logo {
+    margin: 5rem 0 2rem 0;
+  }
+  main h1 {
+    font-size: 150%;
+  }
+  main .subscribe {
+    margin: 1rem 0 3rem 0;
+  }
+  main form div,
+  main form button {
+    width: 100%;
+  }
+  main form input {
+    margin-bottom: 1rem;
+  }
+  main form ::-webkit-input-placeholder {
+    padding-left: 1rem;
+  }
+  main form :-ms-input-placeholder {
+    padding-left: 1rem;
+  }
+  main form ::-ms-input-placeholder {
+    padding-left: 1rem;
+  }
+  main form ::placeholder {
+    padding-left: 1rem;
+  }
+  main form .error-msg {
+    display: none;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  main .dashboard-illustration {
+    margin: 2rem 0 5rem 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
